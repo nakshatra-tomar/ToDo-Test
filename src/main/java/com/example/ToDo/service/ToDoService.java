@@ -1,9 +1,7 @@
-package service;
+package com.example.ToDo.service;
 
-import model.ToDo;
-import com.example.ToDo_Test.ToDoTestApplication;
-import repository.ToDoRepository;
-import service.ToDoService;
+import com.example.ToDo.model.ToDo;
+import com.example.ToDo.repository.ToDoRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

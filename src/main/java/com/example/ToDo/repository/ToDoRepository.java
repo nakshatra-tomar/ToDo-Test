@@ -1,7 +1,7 @@
-package repository;
+package com.example.ToDo.repository;
 
 
-import model.ToDo;
+import com.example.ToDo.model.ToDo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

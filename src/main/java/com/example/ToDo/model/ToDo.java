@@ -1,4 +1,4 @@
-package model;
+package com.example.ToDo.model;
 
 import jakarta.persistence.Entity;// Imports the Entity annotation to mark this class as an entity
 import jakarta.persistence.GeneratedValue;// Imports the GeneratedValue annotation for auto-generating primary key values
