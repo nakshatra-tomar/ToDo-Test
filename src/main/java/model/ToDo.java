@@ -1,9 +1,9 @@
 package model;
 
-import javax.persistence.Entity; // Imports the Entity annotation to mark this class as an entity
-import javax.persistence.GeneratedValue; // Imports the GeneratedValue annotation for auto-generating primary key values
-import javax.persistence.GenerationType; // Imports the GenerationType enumeration for specifying generation strategies
-import javax.persistence.Id; // Imports the Id annotation to mark the primary key field
+import jakarta.persistence.Entity;// Imports the Entity annotation to mark this class as an entity
+import jakarta.persistence.GeneratedValue;// Imports the GeneratedValue annotation for auto-generating primary key values
+import jakarta.persistence.GenerationType;// Imports the GenerationType enumeration for specifying generation strategies
+import jakarta.persistence.Id;// Imports the Id annotation to mark the primary key field
 
 @Entity // Marks this class as a JPA entity
 public class ToDo {
